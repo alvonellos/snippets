@@ -5,8 +5,7 @@ import sys
 import os
 import time
 """
-  Uptime script to monitor Dr. Whitaker's computers 
-  in the mountain.
+  A tool to monitor and log internet connectivity
 """
 def db_name():
 	s = gethostname().replace('.', '').strip('\'').lower()
