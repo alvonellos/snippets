@@ -1,0 +1,4 @@
+This directory contains a database of 1 million primes
+generated with the attached script. You can use SQLite
+to query the database in any way that you'd like. 
+
