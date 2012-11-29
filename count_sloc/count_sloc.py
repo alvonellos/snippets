@@ -18,7 +18,7 @@ def print_matches(rootPath, pattern, verbose=True):
 				for line in f:
 					file_line_count += 1
 			if verbose:
-				print infile + " | " + str(file_line_count)
+				print str(file_line_count) + " | " + infile
 			line_count += file_line_count
 
 	return {"file_count: " : file_count, "line_count: " : line_count}
